@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Python-based Data Query Tool uses the EnergiDataService free API to provide a user-friendly interface for querying energy data. To execute the code you do not need any authentication method. Tool allows users to select parameters interactively to generate customized data queries saved into .csv file.
+This Python-based Data Query Tool uses the [EnergiDataService](https://www.energidataservice.dk/) free API to provide easy interface for querying energy data. To execute the code you do not need any authentication method. Tool allows users to select parameters interactively to generate customized data queries saved into .csv file.
 
 ## Features
 
