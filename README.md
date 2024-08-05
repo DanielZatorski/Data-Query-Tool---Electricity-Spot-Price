@@ -1,2 +1,11 @@
-# Data-Query-Tool---Electricity-Spot-Price
-Data Query Tool with a focus on user input selection for querying data accordingly
+# Data Query Tool for EnergiDataService
+
+## Overview
+
+This Python-based Data Query Tool uses the EnergiDataService free API to provide a user-friendly interface for querying energy data. To execute the code you do not need any authentication method. Designed with ease of use in mind, this tool allows users to select parameters interactively to generate customized data queries.
+
+## Features
+
+- **User Input Selection:** Choose query parameters through an intuitive interface.
+- **Data Retrieval:** Fetch data from the EnergiDataService API based on user selections.
+- **CSV Export:** Output the resulting data as a DataFrame ready for CSV export.
