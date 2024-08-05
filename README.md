@@ -6,6 +6,6 @@ This Python-based Data Query Tool uses the EnergiDataService free API to provide
 
 ## Features
 
-- **User Input Selection:** Choose query parameters through an intuitive interface.
-- **Data Retrieval:** Fetch data from the EnergiDataService API based on user selections.
-- **CSV Export:** Output the resulting data as a DataFrame ready for CSV export.
+- **User Input Selection:** Choose query parameters for dates period, area, aggregation type
+- **Data Retrieval:** Fetch data from the EnergiDataService API based on user selections
+- **CSV Export:** Output the resulting data as a DataFrame ready for CSV export
