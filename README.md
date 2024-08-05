@@ -9,3 +9,8 @@ This Python-based Data Query Tool uses the [EnergiDataService](https://www.energ
 - **User Input Selection:** Choose query parameters for dates period, area, aggregation type
 - **Data Retrieval:** Fetch data from the EnergiDataService API based on user selections
 - **CSV Export:** Output the resulting data as a DataFrame ready for CSV export
+
+## How to Use
+
+- **Download Python source code file**
+- **Run Code in your local environment**
