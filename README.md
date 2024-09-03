@@ -2,20 +2,32 @@
 
 ## Overview
 
-This Python-based Data Query Tool uses the [EnergiDataService](https://www.energidataservice.dk/) free API to provide easy interface for querying energy data. To execute the code you do not need any authentication method. Tool allows users to select parameters interactively to generate customized data queries saved into .csv file.
+The Data Query Tool is a Python-based application that leverages the [EnergiDataService](https://www.energidataservice.dk/) API to provide a straightforward interface for querying energy data. This tool runs locally on your PC and does not require any authentication.
+
+### Key Features
+- **Interactive GUI:** Allows users to select parameters via a simple graphical interface.
+- **Custom Queries:** Generate queries based on user-defined parameters and save the results as a `.csv` file in the same directory as the [executable file](https://github.com/DanielZatorski/Data-Query-Tool---Electricity-Spot-Price/blob/main/build/exe.win-amd64-3.12/Data%20Query%20Tool%20-%20Electricity%20Spot%20Price.exe).
+- **User Input:** Specify date ranges, areas, and aggregation types.
+- **Data Retrieval:** Fetch data from EnergiDataService based on the selected parameters.
+- **CSV Export:** Save the resulting data as a CSV file for further analysis.
+
+
+### Components
+- **[GUI File](https://github.com/DanielZatorski/Data-Query-Tool---Electricity-Spot-Price/blob/main/gui.py):** Handles the graphical user interface and parameter selection.
+- **[Data Fetching Code](https://github.com/DanielZatorski/Data-Query-Tool---Electricity-Spot-Price/blob/main/gui_feed.py):** Manages data retrieval from the EnergiDataService API.
 
 ## Skills & Tools Used
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![API](https://img.shields.io/badge/API-FF6C37?style=for-the-badge&logo=appveyor&logoColor=white)
 
-## Features
 
-- **User Input Selection:** Choose query parameters for dates period, area, aggregation type
-- **Data Retrieval:** Fetch data from the EnergiDataService API based on user selections
-- **CSV Export:** Output the resulting data as a DataFrame ready for CSV export
+## Requirements
 
-## How to Use
+- Python 3.12
 
-- **Download Python source code file**
-- **Run Code in your local environment**
+## Installation & Usage
+
+1. **Clone the repository** to your local directory:
+   ```bash
+   git clone https://github.com/DanielZatorski/Data-Query-Tool---Electricity-Spot-Price.git
