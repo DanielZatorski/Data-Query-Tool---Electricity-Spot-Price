@@ -3,6 +3,7 @@
 ## Overview
 
 The Data Query Tool is a Python-based application that leverages the [EnergiDataService](https://www.energidataservice.dk/) API to provide a straightforward interface for querying energy data. This tool runs locally on your PC and does not require any authentication.
+The [executable file](https://github.com/DanielZatorski/Data-Query-Tool---Electricity-Spot-Price/blob/main/build/exe.win-amd64-3.12/Data%20Query%20Tool%20-%20Electricity%20Spot%20Price.exe) was built with cx_Freeze library through [setup file](https://github.com/DanielZatorski/Data-Query-Tool---Electricity-Spot-Price/blob/main/setup.py).
 
 ### Key Features
 - **Interactive GUI:** Allows users to select parameters via a simple graphical interface.
