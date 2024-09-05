@@ -17,11 +17,6 @@ The [executable file](https://github.com/DanielZatorski/Data-Query-Tool---Electr
 - **[GUI File](https://github.com/DanielZatorski/Data-Query-Tool---Electricity-Spot-Price/blob/main/gui.py):** Handles the graphical user interface and parameter selection.
 - **[Data Fetching Code](https://github.com/DanielZatorski/Data-Query-Tool---Electricity-Spot-Price/blob/main/gui_feed.py):** Manages data retrieval from the EnergiDataService API.
 
-## Skills & Tools Used
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![API](https://img.shields.io/badge/API-FF6C37?style=for-the-badge&logo=appveyor&logoColor=white)
-
 
 ## Requirements
 
