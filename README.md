@@ -17,6 +17,12 @@ The Data Query Tool is a Python-based application that leverages the [EnergiData
 - **[GUI File](https://github.com/DanielZatorski/Data-Query-Tool---Electricity-Spot-Price/blob/main/streamlit_gui.py):** Handles the graphical user interface and parameter selection using Streamlite framework.
 - **[Data Fetching Code](https://github.com/DanielZatorski/Data-Query-Tool---Electricity-Spot-Price/blob/main/gui_feed.py):** Manages data retrieval from the EnergiDataService API.
 
+## Presentation
+
+![image](https://github.com/user-attachments/assets/1db7181c-2bf1-4222-8b4f-b0061f41c841)
+![image](https://github.com/user-attachments/assets/bdbed0f9-c12f-49f5-8f1d-de59011b4645)
+![image](https://github.com/user-attachments/assets/596ac5e1-bbe9-4fd7-9f52-ce8cb5d6a2bc)
+
 
 ## Requirements
 
