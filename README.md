@@ -6,11 +6,11 @@ The Data Query Tool is a Python-based application that leverages the [EnergiData
 
 ### Key Features
 - **Interactive GUI:** Allows users to select parameters via a simple graphical interface.
-- **Custom Queries:** Generate queries based on user-defined parameters where you can save the results as a `.csv` file.
+- **Custom Queries:** Generate queries based on user-defined parameters
 - **User Input:** Specify date ranges, areas, and aggregation types.
 - **Data Retrieval:** Fetch data from EnergiDataService based on the selected parameters.
 - **Visualisations:** Based on generated queries, analyze the data.
-- **CSV Export:** Save the resulting data as a CSV file for further analysis.
+- **CSV Export:** Save the resulting data as a CSV file for further analysis
 
 
 ### Components
