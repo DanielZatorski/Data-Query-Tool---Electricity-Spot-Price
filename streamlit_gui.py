@@ -5,6 +5,7 @@ from gui_feed import get_spot_price
 from datetime import datetime
 
 today = datetime.now().date()
+min_date = datetime(2002, 1, 1).date()
 
 st.title("Data Query Tool - Electricity Spot Price")
 
@@ -12,7 +13,7 @@ st.title("Data Query Tool - Electricity Spot Price")
 st.sidebar.header("Query Parameters")
 
 # date input widgets with rolling max date (today)
-start_date = st.sidebar.date_input("Select Start Date:", value=today, max_value=today)
+start_date = st.sidebar.date_input("Select Start Date:", value=today,min_value=min_date, max_value=today)
 end_date = st.sidebar.date_input("Select End Date:", value=today, max_value=today)
 
 # select price area in the sidebar
