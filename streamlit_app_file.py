@@ -121,7 +121,7 @@ if st.session_state['query_results']:
             
         fig.update_layout(title='Electricity Spot Price Over Time',
                           xaxis_title='Time',
-                          yaxis_title='Price [DKK]',
+                          yaxis_title='DKK/MWh',
                           template='plotly_white')
         st.plotly_chart(fig)  # render the Plotly figure in Streamlit
     else:
